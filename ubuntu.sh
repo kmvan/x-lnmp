@@ -2,6 +2,7 @@
 
 # add repository
 add-apt-repository ppa:ondrej/php
+add-apt-repository ppa:ondrej/nginx
 
 # Update system
 apt update && apt upgrade -y
