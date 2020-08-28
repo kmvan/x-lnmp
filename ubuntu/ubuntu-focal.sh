@@ -13,9 +13,4 @@ pecl install swoole
 # Init MySQL/MariaDB
 mysql_secure_installation
 
-# PHP config: /etc/php/7.4/
-# Nginx config: /etc/nginx/
-# MySQL config: /etc/mysql/
-# Redis config: /etc/redis/redis.conf
-# Redis Database: /var/lib/redis/
 
