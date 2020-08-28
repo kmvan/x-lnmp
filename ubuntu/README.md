@@ -7,7 +7,6 @@
 - Nginx test: `Nginx -t`
 - Memcached: `systemctl [start|restart|stop|status] memcached`
 
-
 # PHP config paths
 
 ```
