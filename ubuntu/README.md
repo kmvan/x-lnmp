@@ -1,3 +1,13 @@
+# Control command
+
+- PHP: `systemctl [start|reload|restart|stop|status] php7.4-fpm`
+- MySQL: `systemctl [start|restart|stop|status] mysql`
+- Redis: `systemctl [start|restart|stop|status] redis`
+- Nginx: `systemctl [start|reload|restart|stop|status] nginx`
+- Nginx test: `Nginx -t`
+- Memcached: `systemctl [start|restart|stop|status] memcached`
+
+
 # PHP config paths
 
 ```
