@@ -4,7 +4,7 @@
 - MySQL: `systemctl [start|restart|stop|status] mysql`
 - Redis: `systemctl [start|restart|stop|status] redis`
 - Nginx: `systemctl [start|reload|restart|stop|status] nginx`
-- Nginx test: `Nginx -t`
+- Nginx test: `nginx -t`
 - Memcached: `systemctl [start|restart|stop|status] memcached`
 
 # PHP config paths
