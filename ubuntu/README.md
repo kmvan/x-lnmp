@@ -11,7 +11,7 @@
 
 ```
 /etc/php
-└── 7.4
+└── 8.1
     ├── cli
     │   ├── conf.d
     │   │   ├── 10-mysqlnd.ini -> /etc/php/7.4/mods-available/mysqlnd.ini
