@@ -3,23 +3,22 @@
 # Install properties package
 apt install software-properties-common
 
-# Can add PHP-8.0 repo
-# add-apt-repository ppa:ondrej/php
-# add-apt-repository ppa:ondrej/nginx-mainline
+# Add ondrej's PHP repo
+add-apt-repository ppa:ondrej/php
+
+# Add ondrej's nginx mainline repo
+add-apt-repository ppa:ondrej/nginx-mainline
 
 # Update system
 apt update && apt upgrade -y
 
-# Install PHP/Nginx/MySQL etc
-# PHP-7.4
-apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx php7.4-bcmath php7.4-common php7.4-curl php7.4-exif php7.4-fpm php7.4-gd php-imagick php7.4-mbstring php-memcache php-memcached php7.4-mysql php7.4-opcache php-redis php7.4-sqlite3 php7.4-xml php7.4-zip redis-server screen tldr vim libwebp-dev
-
-# PHP-8.0
-# apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx php8.0-bcmath php8.0-common php8.0-curl php8.0-exif php8.0-fpm php8.0-gd php8.0-imagick php8.0-mbstring php8.0-memcached php8.0-mysql php8.0-opcache php8.0-redis php8.0-sqlite3 php8.0-xml php8.0-zip redis-server screen tldr vim libwebp-dev
+# PHP-8.1
+# Install the software that may be required
+apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx redis-server screen tldr vim libwebp-dev
+apt install php8.1-bcmath php8.1-common php8.1-curl php8.1-fpm php8.1-gd php8.1-imagick php8.1-mbstring php8.1-memcached php8.1-mysql php8.1-opcache php8.1-redis php8.1-sqlite3 php8.1-xml php8.1-zip
 
 # Install swoole
-apt install php7.4-dev php-pear
-# apt install php8.0-dev php8.0-pear
+apt install php8.1-dev php8.1-pear
 pecl install swoole
 
 # Init MySQL/MariaDB
