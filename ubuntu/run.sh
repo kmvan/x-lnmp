@@ -15,10 +15,10 @@ apt update && apt upgrade -y
 # PHP-8.1
 # Install the software that may be required
 apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx redis-server screen tldr vim libwebp-dev
-apt install php8.1-bcmath php8.1-common php8.1-curl php8.1-fpm php8.1-gd php8.1-imagick php8.1-mbstring php8.1-memcached php8.1-mysql php8.1-opcache php8.1-redis php8.1-sqlite3 php8.1-xml php8.1-zip
+apt install php8.2-bcmath php8.2-common php8.2-curl php8.2-fpm php8.2-gd php8.2-imagick php8.2-mbstring php8.2-memcached php8.2-mysql php8.2-opcache php8.2-redis php8.2-sqlite3 php8.2-xml php8.2-zip
 
 # Install swoole
-apt install php8.1-dev php8.1-pear
+apt install php8.2-dev php8.2-pear
 pecl install swoole
 
 # Init MySQL/MariaDB
