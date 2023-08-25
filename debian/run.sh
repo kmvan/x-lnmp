@@ -10,7 +10,7 @@ apt install -y ca-certificates apt-transport-https software-properties-common
 wget -qO - https://packages.sury.org/php/apt.gpg | sudo apt-key add - 
 
 # Import repository key:
-echo "deb https://packages.sury.org/php/ bullseye main" | sudo tee /etc/apt/sources.list.d/php.list
+echo "deb https://packages.sury.org/php/ bookworm main" | sudo tee /etc/apt/sources.list.d/php.list
 
 # Update
 apt update
