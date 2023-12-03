@@ -17,7 +17,7 @@ apt update
 
 # install PHP/Nginx/MySQL etc
 apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx redis-server screen tldr vim libwebp-dev
-apt install php8.2-bcmath php8.2-common php8.2-curl php8.2-fpm php8.2-gd php8.2-imagick php8.2-mbstring php8.2-memcached php8.2-mysql php8.2-opcache php8.2-redis php8.2-sqlite3 php8.2-xml php8.2-zip
+apt install php8.3-bcmath php8.3-common php8.3-curl php8.3-fpm php8.3-gd php8.3-imagick php8.3-mbstring php8.3-memcached php8.3-mysql php8.3-opcache php8.3-redis php8.3-sqlite3 php8.3-xml php8.3-zip
 
 # init MySQL/MariaDB
 mysql_secure_installation
