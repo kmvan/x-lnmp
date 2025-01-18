@@ -16,10 +16,10 @@ apt update && apt upgrade -y
 apt install certbot curl fish git htop iftop imagemagick mariadb-server neofetch nginx redis-server screen tldr vim libwebp-dev
 
 # Install PHP
-apt install php8.3-bcmath php8.3-common php8.3-curl php8.3-fpm php8.3-gd php8.3-imagick php8.3-mbstring php8.3-memcached php8.3-mysql php8.3-opcache php8.3-redis php8.3-sqlite3 php8.3-xml php8.3-zip
+apt install php8.4-bcmath php8.4-common php8.4-curl php8.4-fpm php8.4-gd php8.4-imagick php8.4-mbstring php8.4-memcached php8.4-mysql php8.4-opcache php8.4-redis php8.4-sqlite3 php8.4-xml php8.4-zip
 
 # Install swoole
-apt install php8.3-dev php8.3-pear
+apt install php8.4-dev php8.4-pear
 pecl install swoole
 
 # Init MySQL/MariaDB
