@@ -6,9 +6,6 @@ apt install software-properties-common
 # Add ondrej's PHP repo
 add-apt-repository ppa:ondrej/php
 
-# Add ondrej's nginx mainline repo
-add-apt-repository ppa:ondrej/nginx-mainline
-
 # Update system
 apt update && apt upgrade -y
 
